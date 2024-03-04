@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    background-color:rgb(92, 27, 8);
+    height:700px;
+    justify-content: center; 
+}
+form{
+    margin-top:60px;
+    color: white;
+}
+form td{
+    padding: 8px;
+}
+.first{
+    text-align: right;
+    font-size: 18px;
+}
+table{
+    border-spacing:15px ;
+}
+.in{
+    width: 280px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.submit{
+    border: none;
+    text-align: center;
+    padding: 6px;
+    width: 80px;
+    color: rgb(92, 27, 8);
+    border-radius: 3px;
+    font-weight: bold;
+  }
+.submit:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 14px white;
+  }
+  
